@@ -1,0 +1,151 @@
+@charset "utf-8";
+#container{
+	width: 100%;
+}
+body{
+	background-color: #eeeeef;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: inherit;
+	position: relative;
+}
+.hikari-hr{
+  	width: 16px;
+    height: 6px;
+    background-color: black;
+    margin: 0 auto 0 auto;
+    border: none;
+		margin-top: 5px;
+}
+.main{
+	background-color: white;
+	margin:0 50px 0 50px;
+	padding-top:80px;
+	background-color: #eeeeef;
+}
+.top{
+	text-align: center;
+	height:300px;
+	padding-top:50px;
+	margin-bottom: 80px;
+
+}
+.top h3{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 50px;
+	margin-bottom:  20px;
+
+}
+
+.top span{
+	display: inline-block;
+	margin-top: 50px;
+	font-size: 35px;
+	font-weight: 600;
+	position: relative;
+	width:80%;
+}
+.top span::before{
+	content: "『";
+	display: block;
+	position: absolute;
+	top:-25px;
+	left:-75px;
+
+}
+.top span::after{
+	content: "』";
+	display: block;
+	position: absolute;
+	bottom: -25px;
+	right:-60px;
+}
+.person{
+	display: inline-block;
+	width: 70%;
+	overflow: hidden;
+	padding-bottom: 30px;
+	margin: 90px 0 90px 0;
+	border-bottom: 1px solid black;
+}
+.person img{
+	height:120px;
+	width:120px;
+	float:left;
+}
+.person-inner{
+	display: block;
+	text-align: left;
+	padding-left: 30px;
+	word-wrap: break-word;
+	width:auto;
+	overflow: hidden
+}
+.person-inner p{
+	font-size: 14px;
+}
+.cap{
+	display: inline-block;
+	background-color: white;
+}
+
+
+.contents{
+	margin-bottom: 50px;
+	margin-top: 40px;
+	text-align: center;
+}
+.char0{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 50px;
+	margin: 0;
+}
+.warp h1{
+	position: absolute;
+	top:1125px;
+	left:0;
+	-webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+	margin: 0;
+	font-size: 200px;
+	line-height: 140px;
+	color: #eeeeef;
+}
+.char{
+	display: inline-block;
+	width:70%;
+	text-align: left;
+}
+.wrapper img{
+	width:100%;
+	height: auto;
+}
+.char p{
+	font-size: 17px;
+}
+
+#fu {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 50px;
+}
+.last-wrapper{
+	text-align: center;
+	margin-bottom:100px;
+}
+.last-wrapper img{
+	width:70%;
+	height:auto;
+	display: inline-block;
+
+}
+
+h2{
+	text-align: center;
+}
+
+.clear{
+	clear: both;
+}

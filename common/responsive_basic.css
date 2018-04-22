@@ -1,0 +1,23 @@
+@media(max-width:840px ){
+  .header-menu{
+    display: none;
+  }
+  .menu-icon{
+    display: inline-block;
+
+  }
+  .header-logo{
+    margin-left: 0px;
+  }
+  .br-hidden{
+    display: none!important;
+  }
+  .footer-list{
+    display: none;
+  }
+  .ftr-top h1{
+    font-size: 120%;
+    font-weight: 600;
+    letter-spacing: 2px
+  }
+}

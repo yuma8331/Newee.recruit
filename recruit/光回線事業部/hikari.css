@@ -1,0 +1,212 @@
+
+.top-wrapper {
+  box-sizing: boder-box;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  height:600px;
+  width:auto;
+}
+.top-image{
+  background: url('test.jpg');
+  background-position:center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height:100%;
+  width:100%;
+}
+
+
+
+
+/*トップ*/
+.top-wrapper-inner{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+height:60%;
+
+}
+.top-wrapper-inner h2{
+font-family: 'Mrs Saint Delafield', cursive;
+font-size: 400%;
+margin-bottom: 0;
+font-weight: lighter;
+}
+.top-wrapper-inner p{
+  font-size:100%;
+  margin:0;
+  font-weight: 10;
+  font-weight: lighter;
+}
+.hikari-hr{
+  width: 16px;
+    height: 6px;
+    background-color: white;
+    margin: 20px auto 30px auto;
+    border: none;
+    margin-bottom: 80px;
+}
+
+.members{
+  z-index: 1;
+  background-color: rgba(0,0,0,0.9);
+  color:white;
+  padding: 200px 0 200px 0;
+  text-align: center;
+}
+.members h2{
+  margin: 0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: lighter;
+}
+.member-list{
+  background-color: rgba(0,0,0,0.9);
+  height:780px;
+  width:100%
+}
+.mems{
+  width:90%;
+  height:100%;
+  margin: 0 auto;
+  position: relative;
+}
+.mems-left{
+  display: inline-block;
+  text-align: center;
+  width:50%;
+  height:100%;
+  float:left;padding-top: 195px;
+}
+.mems-right{
+  display: inline-block;
+  width:50%;
+  float:right;
+  height:100%;
+  text-align: center;
+}
+
+.mems a{
+  width: 80%;
+  height:auto;
+  position: relative;
+}
+.inner-bace{
+  width:100%;
+  height:100%;
+}
+#net1{
+  background:#000 url("net1.jpg") no-repeat center center;  display: inline-block;
+  text-align: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 300px;
+}
+#net1::before{
+  content: ' ';
+	background-color: rgba(0,0,0,.1);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#net2{
+  background-image: url("net3.jpg");
+  display: inline-block;
+  text-align: center;
+  background-size: cover;
+  width: 80%;
+  height: 300px;
+  max-height: 300px;
+  max-width: 100%;
+  margin-bottom: 80px;
+  background-position: 60% 60%;
+
+}
+#net2::before{
+  content: ' ';
+	background-color: rgba(0,0,0,.1);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#net3{
+  background-image: url("net4.jpg");
+  display: inline-block;
+  text-align: center;
+  background-size: cover;
+  width: 80%;
+  height: 300px;
+  max-width: 100%;
+}
+#net3::before{
+  content: ' ';
+	background-color: rgba(0,0,0,.3);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.mems img{
+  display: inline-block;
+  width: 90%;
+  height: 280px;
+  box-sizing: border-box;
+}
+.member-list-inner{
+  position: absolute;
+  top:40%;
+  left:-10%;
+  color: white;
+  text-align: left;
+  font-weight: lighter;
+  margin: 0;
+  float:left;
+  display: none;
+}
+.text-active{
+  display: block;
+}
+.member-list-inner p{
+  margin: 0;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 35px;
+}
+
+/* スタイル部分 */
+.style{
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+.style h2{
+  font-weight: lighter;
+}
+.style-title{
+  padding: 200px 0 200px 0;
+}
+.style-contents{
+  display: inline-block;
+  width:60%;
+  font-size:20px;
+}
+.style-contents p{
+  margin:0;
+  font-weight: lighter;
+}
+.image{
+  background-color:black;
+  padding:100px 0;
+  width:100%;
+  text-align: center;
+}
+.image img{
+  width:60%;
+  height:auto;
+}

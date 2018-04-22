@@ -1,0 +1,44 @@
+
+
+.info{
+	padding-top: 200px;
+}
+#mail_form{
+	margin:auto 25%;
+	display:block;
+}
+
+.title  h1{
+	display: inline-block;
+	border-left: 6px #007bbb solid;
+}
+
+input{
+	width:100%;
+	padding:8px 10px;
+	margin-bottom: 8px;
+	background-color: #f7f5f5;
+	border:1px #d5d2d2 solid;
+	line-height: 1.5;
+	font-size: 0.75rem;
+	border-radius: 2px;
+}
+
+textarea{
+	width:100%;
+	padding:8px 10px;
+	margin-bottom: 8px;
+	background-color: #f7f5f5;
+	border:1px #d5d2d2 solid;
+	line-height: 1.5;
+	font-size: 0.75rem;
+	border-radius: 2px;
+}
+
+dd{
+	margin:20px 0 10px 0;
+}
+
+#form_submit{
+	margin:70px 0;
+}

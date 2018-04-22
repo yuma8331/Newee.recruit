@@ -1,0 +1,11 @@
+$(function(){
+		$("#type").typed({
+            strings: ["最初の文字だよ。", "2番目の^1000<br> 文字です","3番目の文字です。","4番目の^1000文字です。","最後の<br>文字なんです。"],
+            typeSpeed: 100, //スピード
+			startDelay: 0, //スタート時間
+			backSpeed: 100, //バックスピード
+			backDelay: 500, //バックスタート時間
+			loop: true, //ループ
+			cursorChar: "|", //カーソル
+        });
+    });

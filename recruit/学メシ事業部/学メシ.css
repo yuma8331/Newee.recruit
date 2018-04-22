@@ -1,0 +1,267 @@
+p{
+  margin: 0;
+}
+h2{
+  margin:0;
+}
+.top-wrapper{
+  background-image: url("gaku5.jpg");
+  min-height:100vh;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.top-wrapper::before{
+  background-color: rgba(255,255,255,0.3);
+  content: ' ';
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+}
+.top-wrapper h2{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin: auto auto;
+  width:60%;
+  height:20%;
+  font-family: 'Gamja Flower', cursive;
+  display: inline-block ;
+  font-size: 50px;
+  text-align: center;
+  color:#2b2b2b;
+  font-weight: lighter;
+}
+.massage{
+  background-color: #9cb1c2;
+  height:100vh;
+  width:100%;
+  position: relative;
+}
+
+
+.massage img{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:50%;
+  height:auto;
+  background-size: cover;
+  margin-bottom:100px;
+  text-align: center;
+  display: block;
+  margin: auto auto;
+}
+.massage p{
+  margin:0;
+}
+.second-wrapper{
+  background-image: url("gaku3.jpg");
+  background-attachment:fixed;
+  height:100vh;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.second-wrapper::before{
+  background-color: rgba(255,255,255,0.2);
+  content: ' ';
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+}
+.second-massage{
+  background-color: #ba7d8c;
+  height:100vh;
+  width:100%;
+  position: relative;
+}
+.second-massage-inner{
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin: auto;
+  display: inline-block;
+  height: 60%;
+  width:60%;
+  text-align: center;
+}
+.second-massage-inner h2{
+  margin:20px 0;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.second-massage-inner-top{
+  margin:30px 0;
+}
+.third-wrapper{
+  background-image: url("gaku7.jpg");
+  height:100vh;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+.third-wrapper::before{
+  background-color: rgba(255,255,255,0.2);
+  content: ' ';
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+}
+.third-massage{
+  background-color: #4DADA1;
+  height:100vh;
+  width:100%;
+  position: relative;
+}
+.third-massage-inner{
+  height:60%;
+  width:100%;
+padding-top: 100px;
+}
+.third-massage-inner h2{
+  text-align: center;
+  font-weight: lighter;
+  margin: 20px 0;
+}
+.member{
+  width:100%;
+  height:400px;
+  text-align: center;
+  display: inline-block;
+}
+.button {
+  display: inline-block;
+  width: 50%;
+  height: 80%;
+  text-align: center;
+  text-decoration: none;
+  line-height: 54px;
+  outline: none;
+  padding-top: 180px;
+}
+.button::before,
+.button::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.button,
+.button::before,
+.button::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.button {
+  position: relative;
+  z-index: 2;
+  background-color: #333;
+  border: 2px solid #333;
+  color: #fff;
+  line-height: 50px;
+}
+.button:hover {
+  background-image: url("gaku9.JPG");
+  background-size: cover;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.button::before,
+.button::after {
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #333;
+}
+.button::before {
+  right: 0;
+}
+.button::after {
+  left: 0;
+}
+.button:hover::before,
+.button:hover::after {
+  width: 0;
+  background-color: #ffffff;
+}
+
+.fourth-wrapper{
+  background-image: url("gaku6.jpg");
+  height:100vh;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+.clear{
+  clear: left;
+}
+.line{
+  height:4px;
+  width:100%;
+  background: url("ボーダー.png");
+  background-image: url("ボーダー.png");
+  background-size: cover;
+}
+.menber{
+  margin-top:50px;
+  margin-bottom:100px;
+  opacity: 0;
+}
+section{
+  width:100%;
+}
+.lis{
+  position: relative;
+  width:100%;
+  height:300px;
+}
+
+.list-inner{
+  position: absolute;
+  top:45%;
+  left:20px;
+}
+.list a{
+  display:block;
+  width:100%;
+  height:100%;
+  color:white;
+  text-decoration: none;
+  background-position: 60% 60%;
+}
+#list1{
+  background-image: url("学メシメンバー2.jpg");
+}
+#list2{
+background-image: url("学メシメンバー１.jpg");
+}
