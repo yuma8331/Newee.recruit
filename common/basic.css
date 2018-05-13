@@ -46,10 +46,19 @@ header{
   display: inline;
 }
 .header-logo{
-  width:auto;
+  background-image: url("file:///Users/user/Desktop/GitHub/Newee.recult/recruit/RecruitTop/NeweeLogo1.png");
+  background-size: cover;
+  width:60px;
   height:60px;
   float:left;
-
+  margin-top: 14px;
+}
+.header-logo1{
+  background-image: url("file:///Users/user/Desktop/GitHub/Newee.recult/recruit/RecruitTop/NeweeLogo2.png");
+  background-size: cover;
+  width:60px;
+  height:60px;
+  float:left;
   margin-top: 14px;
 }
 

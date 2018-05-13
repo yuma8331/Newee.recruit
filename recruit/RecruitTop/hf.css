@@ -3,9 +3,9 @@
 
 /*---------------------------------*/
 .top-wrapper{
-
-  background-image: url("トップ画像.JPG");
-  height: 630px;
+  background-image: url("RecruitTop.JPG");
+  height: 660px;
+  margin-top: 0;
   padding:180px 0 0px 0;
   background-size:cover;
   position: relative;
@@ -204,7 +204,7 @@ margin-bottom: 40px;
 }
 .class li{
   border:5px solid black;
-  width:100%;
+  width:95%;
   height:175px;
   margin: 10px 1px;
   display: inline-block;
